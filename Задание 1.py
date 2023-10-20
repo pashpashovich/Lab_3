@@ -18,7 +18,7 @@ with open("F1.txt", "r") as f1, open("F2.txt", "w") as f2:
             f2.write(line)  # записываем эту строку в файл F2
 
 print("Строки с не менее чем двумя одинаковыми словами записаны в файл F2.txt.")
-print("Содержимое файла F2.txt:")
+print("Содержание файла F2.txt:")
 with open("F2.txt", "r") as f2:
     result = f2.read()
     print(result)
